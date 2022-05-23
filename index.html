@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Gulliver Traveller</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./imgs/1.png" alt="Logotipo com um avião em volta de um planeta na cor azul e cinza"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./how_to_get.html">Como chegar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Dicas úteis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Onde se hospedar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Alugue seu carro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">História</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cultura</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Parques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gastronomia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Vida Noturna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Entretenimento</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Viaja+ (Passagem de ônibus)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="search-field">
+        <form action="/" method="post" name="search-form" class="forms">
+            <div class="search-div">
+                <input type="search" name="destination" class="inputs-form" id="destination" placeholder="Pesquisar Destino">
+                <input type="date" name="date-entry" class="inputs-form" id="date-entry" placeholder="Entrada">
+                <input type="date" name="date-exit" class="inputs-form" id="date-exit" placeholder="Saída">
+                <input type="search" name="bedroom" class="inputs-form" id="bedroom" placeholder="Quartos">
+                <button type="submit"><i class="fas fa-search-location"></i><span class="sr-only">Pesquisar</span></button>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1>Rio Grande do Sul</h1>
+                <p class="card-text">Hotel - Canela</p>
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1>São Paulo</h1>
+                <p class="card-text">Hotel - Paulista</p>
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1>Rio de Janeiro</h1>
+                <p class="card-text">Hotel - Paraty</p>
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1>Rio Grande do Sul</h1>
+                <p class="card-text">Hotel - Gramado </p>
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./js/functions.js"></script>
+</html>

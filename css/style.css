@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.navbar {
+    background-color: #FF5F5D !important;
+}
+
+li a {
+    color: #ffff !important; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-field {
+    padding: 5%;
+    background-color: #E6E6E0;
+}
+
+.inputs-form {
+    padding: 5px;
+    margin: 1%;
+}
+
+#destination {
+    margin-left: 15%;
+}
+
+button {
+    background-color: #00CCBF;
+    color: #ffff;
+    border: none;
+    border-radius: 3%;
+    padding: 7.3px;
+}
+
+.card {
+    margin: 1.5% !important;
+    display: inline-block;
+}
+
+.card h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 140%;
+}
+
+.fa-star {
+    color: yellow;
+}
