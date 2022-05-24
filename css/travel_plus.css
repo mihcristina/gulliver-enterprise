@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.navbar {
+    background-color: #FF5F5D !important;
+}
+
+li a {
+    color: #ffff !important; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-travel {
+    margin: 1%;
+    display: inline-block;
+}
+
+.bg-dark {
+    margin: 1%;
+}
