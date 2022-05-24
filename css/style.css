@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: #FF5F5D !important;
+    align-items: center;
 }
 
 li a {
@@ -39,4 +40,13 @@ button {
 
 .fa-star {
     color: yellow;
+}
+
+.page-link {
+    color: #FF5F5D !important;
+}
+
+.nav_bar {
+    margin-top: 1%;
+    align-items: center;
 }
