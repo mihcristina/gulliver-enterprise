@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.navbar {
+    background-color: #FF5F5D !important;
+}
+
+li a {
+    color: #ffff !important; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-field {
+    padding: 5%;
+    background-color: #E6E6E0;
+}
+
+.inputs-form {
+    padding: 5px;
+    margin: 1%;
+}
