@@ -125,9 +125,6 @@ section {
     transition-delay: 0 !important;
   }
 }
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
 .header {
   transition: all 0.5s;
   z-index: 997;
@@ -225,7 +222,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #05FFAB;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -252,11 +249,9 @@ section {
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+
 .mobile-nav-toggle {
-  color: #012970;
+  color: #05FFAB;
   font-size: 28px;
   cursor: pointer;
   display: none;
