@@ -12,111 +12,213 @@
     <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="img-logo" src="./imgs/logo.png" alt="Círculo três cores com a escrita GulliverTraveller"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
+
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="./imgs/logo.png" alt="Círculo três cores com a escrita GulliverTraveller">
+            </a>
+    
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li class="dropdown"><a href="#"><span>Acesse outras funcionalidades</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="./how_to_get.html">Como Chegar</a></li>
+                            <li><a href="./useful_tips.html">Dicas úteis</a></li>
+                            <li><a href="#">Onde se hospedar</a></li>
+                            <li><a href="#">Alugue seu carro</a></li>
+                            <li><a href="#">Cultura</a></li>
+                            <li><a href="#">Parques</a></li>
+                            <li><a href="#">Gastronomia</a></li>
+                            <li><a href="#">Vida Noturna</a></li>
+                            <li><a href="#">Entretenimento</a></li>
+                            <li><a href="./travel_plus.html">Viaja+ (Passagem de ônibus)</a></li>
+                        </ul>
+                    
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acesse outras funcionalidades</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./how_to_get.html">Como chegar</a>
-                        <a class="dropdown-item" href="./useful_tips.html">Dicas úteis</a>
-                        <a class="dropdown-item" href="#">Onde se hospedar</a>
-                        <a class="dropdown-item" href="#">Alugue seu carro</a>
-                        <a class="dropdown-item" href="#">Cultura</a>
-                        <a class="dropdown-item" href="#">Parques</a>
-                        <a class="dropdown-item" href="#">Gastronomia</a>
-                        <a class="dropdown-item" href="#">Vida Noturna</a>
-                        <a class="dropdown-item" href="#">Entretenimento</a>
-                        <a class="dropdown-item" href="./travel_plus.html">Viaja+ (Passagem de ônibus)</a>
+                <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+                    <li><a class="getstarted scrollto" href="#about">Sobre</a></li>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+    
+        </div>
+    </header>
+
+
+    <section id="hero" class="hero d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">O lugar para você planejar</h1>
+                    <h2 data-aos="fade-up" data-aos-delay="400">e efetuar a melhor viagem</h2>
+                    <div data-aos="fade-up" data-aos-delay="600">
+                        <div class="text-center text-lg-start">
+                            <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span>Começar</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Entre em contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="search-field">
-        <form action="/" method="post" name="search-form" class="forms">
-            <div class="search-div">
-                <input type="search" name="destination" class="inputs-form" id="destination" placeholder="Pesquisar Destino">
-                <input type="date" name="date-entry" class="inputs-form" id="date-entry" placeholder="Entrada">
-                <input type="date" name="date-exit" class="inputs-form" id="date-exit" placeholder="Saída">
-                <input type="search" name="bedroom" class="inputs-form" id="bedroom" placeholder="Quartos">
-                <button type="submit"><i class="fas fa-search-location"></i><span class="sr-only">Pesquisar</span></button>
+                </div>
+                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="imgs/13.png" class="img-fluid" alt="">
+                </div>
             </div>
-        </form>
+        </div>
+    
     </section>
+    
 
-    <div class="card-group">
-        <div class="card">
-            <img class="card-img-top" src="./imgs/2.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <h5 class="card-title">Rio Grande do Sul - Canela</h5>
-                <p class="card-text">O Apartamento Residencial Vivere é um apartamento muito aconchegante e bem decorado, que proporciona uma excepcional experiência aos hóspedes que optam por ele.
+    <main id="main">
+        <section id="about" class="about">
+    
+        <div class="container" data-aos="fade-up">
+            <div class="row gx-0">
+    
+                <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="content">
+                        <h3>Quem somos</h3>
+                        <h2>Olá, eu sou o Gulliver</h2>
+                        <p>
+                            Mochileiro de plantão, vi a necessidade de montar um site com todos os requisitos que precisei durante minha viagem, assim, reuni a melhor equipe para esse projeto.
+                        </p>
+                        <div class="text-center text-lg-start">
+                        <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span>Leia mais</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                <img src="imgs/14.png" class="img-fluid" alt="">
+            </div>
+    
+            </div>
+        </div>
+    
+        </section>
+    
+        <section id="team" class="team">
+    
+            <div class="container" data-aos="fade-up">
+    
+                <header class="section-header">
+                    <h2>Nossa equipe</h2>
+                </header>
+    
+            <div class="row">
+    
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="box">
+                        <img src="./imgs/15.png" class="img-fluid" alt="">
+                        <h3>Esteves Jobs</h3>
+                        <p>Gestor de Projetos</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+                    <div class="box">
+                        <img src="./imgs/16.png" class="img-fluid" alt="">
+                        <h3>Pablo Youex</h3>
+                        <p>Desenvolvedor Front-end</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+                    <div class="box">
+                        <img src="./imgs/17.png" class="img-fluid" alt="">
+                        <h3>Albert</h3>
+                        <p>Analista de sistemas</p>
+                    </div>
+                </div>
+    
+                </div>
+    
+            </div>
+    
+        </section>
+    
+        <section id="others-team" class="others-team">
+            <div class="container" data-aos="fade-up">
+    
+                <div class="row gy-4">
+    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-box">
+                            <i class="bi bi-emoji-smile"></i>
+                        <div>
+                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Rita Key</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Watson Maker</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-headset"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Codeberto</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-people"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Louise</p>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+    
+            </div>
+        </section>
+    
+    </main>
 
-                    Completíssimo e super moderno, tem tudo o que você precisa para um passeio romântico, uma viagem em família ou, ainda, uma divertida viagem com amigos: possui, garagem, sala ampla e iluminada, quartos confortáveis e uma cozinha muito funcional, que tem até churrasqueira!</p>
+    <footer id="footer" class="footer">
+
+        <div class="container">
+            <div class="copyright">
+                <strong><span>Trabalho Final GulliverTraveller (Michelli Cristina e Layla Coraline)</span></strong> Todos os direitos reservados
             </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </small>
+            <div class="credits">
+                Inspirado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="./imgs/3.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <h5 class="card-title">São Paulo - Paulista</h5>
-                <p class="card-text">Ambiente aconchegante para duas pessoas, localização excelente, próximo do metrô Oscar Freire, com restaurantes, bares, supermercados, farmácias, o condomínio tem restaurante Galetos no térreo e arrumação diária.
-                    Mas, antes de reservar leia com atenção: 
-                    Antes de confirmar a reserva, por favor, esclarecer as dúvidas sobre os itens existentes para que a hospedagem esteja dentro das suas expectativas.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </small>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="./imgs/4.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <h5 class="card-title">Rio de Janeiro - Paraty</h5>
-                <p class="card-text">A casa número 02, fica em um Condomínio com 04 casas.
-                    Oferecemos roupas de cama, cobertas, toalhas de banho, papel higiênico e sabonete.
-                    Ar condicionado e ventilador de teto nos quartos, armários com
-                    Cabideiro, espelhos embutidos, cortinas blackout.
-                    Sala com sofá cama.
-                    Cozinha equipada com utensílios, vaga para 1 carro na garagem, espaço gourmet com churrasqueira e ducha de água, privativo da casa.
-                    Uma pequena lavanderia com máquina de lavar e varal.
-                    </p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </small>
-            </div>
-        </div>
-    </div>
+    </footer>
+    
+    <!--JS-->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    
+    <script src="assets/js/main.js"></script>
+
+    <!--acessibilidade-->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
