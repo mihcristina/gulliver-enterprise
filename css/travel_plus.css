@@ -17,3 +17,21 @@ li a {
 .bg-dark {
     margin: 1%;
 }
+
+.icons {
+    display: inline-block;
+    color: #00CCBF;
+    margin: 5%;
+}
+
+.icons img {
+    margin-left: 35%;
+}
+
+.space-icons {
+    padding: 20%;
+}
+
+.bus {
+    max-width: 100%;
+}

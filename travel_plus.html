@@ -7,7 +7,7 @@
     <title>Viaja+</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/travel_plus.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./imgs/1.png" type="image/x-icon">
 </head>
 <body>
@@ -47,35 +47,58 @@
         </div>
     </section>
 
-    <section class="container">
-        <div class="row">
-            <div class="card card-travel col-sm" style="width: 18rem;">
-                <img class="card-img-top" src="./imgs/9.png" alt="Igreja da cidade de Canela">
-                <div class="card-body">
-                    <h5 class="card-title">Viaje para Canela - Rio grande do Sul</h5>
-                    <p class="card-text">A partir de R$180,00</p>
-                    <a href="#" class="btn btn-primary">Conferir</a>
-                </div>
-            </div>
-            <div class="card card-travel col-sm" style="width: 18rem;">
-                <img class="card-img-top" src="./imgs/10.png" alt="Ciclovia da Avenida Paulista ">
-                <div class="card-body">
-                    <h5 class="card-title">Viaje para São Paulo - São Paulo</h5>
-                    <p class="card-text">A partir de R$67,00</p>
-                    <a href="#" class="btn btn-primary">Conferir</a>
-                </div>
-            </div>
-            <div class="card card-travel col-sm" style="width: 18rem;">
-                <img class="card-img-top" src="./imgs/11.png" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">Viaje para Paraty - Rio de Janeiro</h5>
-                    <p class="card-text">A partir de R$99,00</p>
-                    <a href="#" class="btn btn-primary">Conferir</a>
-                </div>
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="./imgs/9.png" alt="Igreja da cidade de Canela">
+            <div class="card-body">
+                <h5 class="card-title">Viaje para Canela - Rio grande do Sul</h5>
+                <p class="card-text">A partir de R$180,00</p>
+                <p class="card-text"><small class="text-muted">Não deixe de conferir</small></p>
             </div>
         </div>
-    </section>
+        <div class="card">
+            <img class="card-img-top" src="./imgs/10.png" alt="Ciclovia da Avenida Paulista">
+            <div class="card-body">
+                <h5 class="card-title">Viaje para São Paulo - São Paulo</h5>
+                <p class="card-text">A partir de R$67,00</p>
+                <p class="card-text"><small class="text-muted">Não deixe de conferir</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./imgs/11.png" alt="Foto dos monumentos de Paraty">
+            <div class="card-body">
+                <h5 class="card-title">Viaje para Paraty - Rio de Janeiro</h5>
+                <p class="card-text">A partir de R$99,00</p>
+                <p class="card-text"><small class="text-muted">Não deixe de conferir</small></p>
+            </div>
+        </div>
+    </div>
 
+    <div class="space-icons">
+        <div class="icons">
+            <img src="./imgs/icon1.png" alt="Ícone de lupa">
+            <p>Busca nas melhores aviações</p>
+        </div>
+        <div class="icons">
+            <img src="./imgs/icon2.png" alt="Ícone do Paypal">
+            <p>Pagamento seguro com PayPal</p>
+        </div>
+        <div class="icons">
+            <img src="./imgs/icon3.png" alt="Ícone de rota">
+            <p>Melhores rotas</p>
+        </div>
+    </div>
+
+    <section>
+        <h1>Passagem rápida - Campinas - São Paulo</h1>
+
+        <div class="bus">
+            <img src="./imgs/12.png" alt="Imagem de silhueta de ônibus">
+            <button></button>
+            <button></button>
+        </div>
+    </section>
+    
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
@@ -86,5 +109,6 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
