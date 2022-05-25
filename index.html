@@ -9,30 +9,38 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="shortcut icon" href="./imgs/1.png" type="image/x-icon">
     <title>Gulliver Traveller</title>
+    <script src="./js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./imgs/1.png" alt="Logotipo com um avião em volta de um planeta na cor azul e cinza"></a>
+            <a class="navbar-brand" href="#"><img class="img-logo" src="./imgs/logo.png" alt="Círculo três cores com a escrita GulliverTraveller"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./how_to_get.html">Como chegar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./useful_tips.html">Dicas úteis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Onde se hospedar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Alugue seu carro</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">História</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Cultura</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Parques</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Gastronomia</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Vida Noturna</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Entretenimento</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./travel_plus.html">Viaja+ (Passagem de ônibus)</a></li>
-                </ul>
-            </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acesse outras funcionalidades</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./how_to_get.html">Como chegar</a>
+                        <a class="dropdown-item" href="./useful_tips.html">Dicas úteis</a>
+                        <a class="dropdown-item" href="#">Onde se hospedar</a>
+                        <a class="dropdown-item" href="#">Alugue seu carro</a>
+                        <a class="dropdown-item" href="#">Cultura</a>
+                        <a class="dropdown-item" href="#">Parques</a>
+                        <a class="dropdown-item" href="#">Gastronomia</a>
+                        <a class="dropdown-item" href="#">Vida Noturna</a>
+                        <a class="dropdown-item" href="#">Entretenimento</a>
+                        <a class="dropdown-item" href="./travel_plus.html">Viaja+ (Passagem de ônibus)</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entre em contato</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -119,7 +127,6 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-
 </body>
 <script src="./js/functions.js"></script>
 </html>
