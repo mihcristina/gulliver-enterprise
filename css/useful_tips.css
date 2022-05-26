@@ -439,7 +439,7 @@ section {
     background: #f51f9c;
 }
 
-.tips .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+.tips .service-box:hover h3, .tips .service-box:hover p, .tips .service-box:hover .read-more {
     color: #fff;
 }
 
